@@ -26,8 +26,11 @@ img {
   width: 100%;
 }
 
-.about-me {
+.about-me img {
   width: 50%;
+}
+.about-me ul {
+  list-style-type: none;
 }
 
 .masthead {
@@ -46,13 +49,13 @@ h1 {
 }
 
 p {
-  padding: 1em;
+  padding: 0;
 }
 
-.masthead h1 {
+.masthead span {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .masthead img {
@@ -101,6 +104,7 @@ h2 {
 
 .section img {
   width: 50%;
+  padding: 1em 0 0 0;
 }
 
 .section {
