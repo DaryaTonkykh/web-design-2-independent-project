@@ -26,6 +26,10 @@ img {
   width: 100%;
 }
 
+.about-me {
+  width: 50%;
+}
+
 .masthead {
   display: flex;
   justify-content: space-between;
@@ -52,8 +56,8 @@ p {
 }
 
 .masthead img {
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   margin-right: .5rem;
 }
 
@@ -96,7 +100,13 @@ h2 {
 }
 
 .section img {
-  width: 100%;
+  width: 50%;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
 
 .banner div {
