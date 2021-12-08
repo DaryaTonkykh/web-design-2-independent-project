@@ -26,11 +26,13 @@ img {
   width: 100%;
 }
 
-.about-me img {
-  width: 50%;
-}
 .about-me ul {
   list-style-type: none;
+}
+
+.about-me img {
+  width: 50%;
+  position: center;
 }
 
 .masthead {
@@ -44,18 +46,20 @@ img {
   font-size: 1.25rem;
 }
 
-h1 {
-  margin: 1em;
-}
-
 p {
   padding: 0;
+}
+
+.masthead h1 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 .masthead span {
   display: flex;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .masthead img {
@@ -99,7 +103,7 @@ p {
 }
 
 h2 {
-  margin: 1em;
+  margin: 0;
 }
 
 .section img {
@@ -107,7 +111,7 @@ h2 {
   padding: 1em 0 0 0;
 }
 
-.section {
+.section div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
@@ -120,11 +124,6 @@ h2 {
   padding: 2rem 0;
   max-width: 20em;
   text-align: center;
-}
-
-.banner h2,
-.banner p {
-  margin: 0 0 1.5rem;
 }
 
 .banner a {
