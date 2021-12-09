@@ -32,7 +32,7 @@ img {
 
 .about-me img {
   width: 50%;
-  position: center;
+  padding: 1em;
 }
 
 .masthead {
