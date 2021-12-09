@@ -1,20 +1,10 @@
 html {
   box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
   background-color: #fff;
   font-family: "Libre Baskerville", serif;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -40,8 +30,8 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
-  background-color: #193B1F;
-  border-bottom: .3rem solid #53C1B1;
+  background-color: #193b1f;
+  border-bottom: .3rem solid #53c1b1;
   color: #fff;
   font-size: 1.25rem;
 }
@@ -60,16 +50,13 @@ p {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
+  width: 9em;
 }
 
 .masthead img {
   width: 3em;
   height: 3em;
   margin-right: .5rem;
-}
-
-.masthead span {
-  width: 9em;
 }
 
 .nav ul {
@@ -108,13 +95,7 @@ h2 {
 
 .section img {
   width: 50%;
-  padding: 1em 0 0 0;
-}
-
-.section div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  padding: 1em 0 0;
 }
 
 .banner div {
@@ -130,7 +111,7 @@ h2 {
   display: inline-block;
   background-color: transparent;
   padding: .5em 1.5em .6em;
-  border: .3rem solid #53C1B1;
+  border: .3rem solid #53c1b1;
   border-radius: 1em;
   color: #fff;
   font-weight: bold;
@@ -138,12 +119,18 @@ h2 {
 }
 
 .footer {
-  background-color: #193B1F;;
-  border-top: .3rem solid #53C1B1;
+  background-color: #193b1f;
+  border-top: .3rem solid #53c1b1;
   color: #fff;
   font-size: .875rem;
   text-align: center;
   padding: 1rem;
+}
+
+.fine-art img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
 
 .footer * {
@@ -152,4 +139,8 @@ h2 {
 
 a:focus {
   outline: 3px solid #fff;
+}
+
+nav:hover {
+  color: #53c1b1;
 }
