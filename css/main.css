@@ -137,10 +137,6 @@ h2 {
   margin: 0;
 }
 
-a:focus {
-  outline: 3px solid #fff;
-}
-
-nav:hover {
+nav a:hover {
   color: #53c1b1;
 }
