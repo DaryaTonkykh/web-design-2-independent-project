@@ -140,3 +140,7 @@ h2 {
 nav a:hover {
   color: #53c1b1;
 }
+
+.design {
+  gap: 1rem;
+}
